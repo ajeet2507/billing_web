@@ -1,0 +1,254 @@
+/* *******************************************home pages********************************************************************88    */
+.header{
+    background-color: #2b80d6;
+    padding: 70px 50px;
+}
+
+.header h1{
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.header p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-section{
+    position: relative;
+    top: 26px;
+    left: 221px;
+}
+.image-alignment{
+    height: 382px;
+}
+.text-aligning{
+    position: absolute;
+    top: 112px;
+}
+.primary-cta {
+    background-color: #48DE75;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.19);
+    box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.19);
+    -webkit-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+    position: relative;
+    bottom: -23px;
+    z-index: 11;
+}
+.cta-disclaimer {
+    position: relative !important;
+    top: 40px !important;
+    left: 43px;
+}
+.small-text {
+    font-size: 12px;
+    color: #ffffff;
+}
+.seen-in-section{
+    height: 64px;
+    background-color: #4690db;
+}
+.advertising-section{
+    display: flex;
+}
+.advertising-margin{
+    margin-left: 19px;
+}
+@media screen and (max-width: 1024px){
+.banner-section {
+    display: none;
+}
+.screen-mockup{
+    display: none;
+}
+}
+/* ******************************** section STATEMENT**************************************************************** */
+#statment-section .text-center{
+    padding: 101px;
+}
+.text-main{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+}
+.text-sub{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* ************************************ INVOICE SECTION****************************************************************************** */
+#invoice-section h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+#invoice-section h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+}
+.main-feature-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.main-feature-item img {
+    max-height: 105px;
+}
+.main-features {
+    margin-top: 70px;
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1257px;
+}
+}
+/* *************************************BUSINESS SECTION********************************************************************************* */
+
+#business{
+         background: #1d1d1d url(../../assets/images/black-background.png) right no-repeat; 
+        background-size: contain;
+        color: white;
+        padding: 70px;
+}
+.sleek-awards{
+    margin-left: 90px;
+    display: inline-block;
+}
+
+/* ************************************** testinomial****************************************************************** */
+
+#testinomial h2{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;    
+}
+#testinomial{
+   padding: 80px;    
+}
+.quote-icon {
+    position: absolute;
+    top: 170px;
+}
+.testinomial {
+    padding-top: 100px;
+}
+.testimonial-content {
+    margin-top: 30px;
+    font-style: italic;
+    color: #363638;
+    min-height: 192px;
+}
+.testimonial-author {
+    margin-top: 35px;
+    min-height: 50px !important;
+}
+.author {
+    font-weight: 600;
+}
+.position {
+    color: #3a82ee;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* *****************************************************business-section************************************************************************** */
+#business-section{
+    background-color: #f5f5f5;
+    padding: 80px;
+}
+#business-section h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom:30px;
+}
+.feature-image{
+    float: left;
+}
+.feature-image img {
+    width: 40px;
+    margin-bottom: 34px;
+    margin-right: 24px;
+}
+.feature-content {
+    margin-bottom: 35px;
+}
+.feature-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 19px;
+}
+.feature-description {
+    font-size: 12px;
+    line-height: 19px;
+}
+.screen-mockup {
+    padding-top: 45px;
+}
+
+/* ************************************ ABOUT SLEEK************************************************************************************ */
+#about-sleek{
+    padding: 80px;
+}
+#about-sleek h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+}
+#about-sleek p {
+    line-height: 30px;
+    font-size: 16px;
+    margin: 50px 0px;
+}
+
+/* *********************************************************************************************************************************** */
+#trust-section {
+    color: #353636;
+    padding: 29px;
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+.trust-list{
+    margin-bottom: 0;
+}
+#trust-section li {
+    display: inline-block;
+    width: 33%;
+    font-weight: 700;
+}
+#trust-section img {
+    width: 20px;
+    margin-right: 10px
+}
+/* ******************************************************* Custom section ******************************************************************* */
+#custom{
+    background-image: url(../../assets/images/custom-background.png);
+    color: white;
+    background-size: cover;
+    padding: 80px;
+}
+
+#custom h2{
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 45px;
+}
+.disclaimer{
+    position: relative !important;
+    top: 40px !important;
+}
